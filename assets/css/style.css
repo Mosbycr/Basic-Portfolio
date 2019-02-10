@@ -15,6 +15,7 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-left: 25px;
     margin-right: 25px;
+    text-align: left;
 }
 .navigation-bar {
     height: 100px;
@@ -27,7 +28,7 @@ h1 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 1010px;
+  padding-left: 1025px;
 
 }
 
@@ -43,7 +44,7 @@ ul li:not(:last-child):after {
 
 li a {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px;
   color: #777777;
   /*border-right: 1px solid #cccccc;*/
@@ -66,6 +67,7 @@ a:link {
     margin-top: 0;
     margin-left: 290px;
     padding-top: 30px;
+    text-align: center;
 
 }
 
@@ -91,9 +93,7 @@ a:link {
     float: left;
     width: 120px;
     height: 150px;
-    padding-right: 20px;
-    padding-bottom: 35px;
-    margin-left: 25px;
+    padding: 10px 20px 10px 20px;
 }
 
 hr {
@@ -101,4 +101,14 @@ hr {
     color: #dddddd;
     background-color: #dddddd;
     border: none;
+}
+
+p {
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2.0;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
 }
