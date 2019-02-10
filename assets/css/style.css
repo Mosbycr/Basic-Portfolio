@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('assets/images/swirl.png');
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.navigation-bar {
+    display: inline-block;
+    width: 960px;
+    align: center;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+.name-logo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 240px;
+    float: left;
+    margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+}
+
+.main {
+    overflow: auto;
+    clear:both;
+}
