@@ -17,6 +17,7 @@ h1 {
     margin-right: 25px;
     text-align: left;
 }
+
 .navigation-bar {
     height: 100px;
     width: 100%;
@@ -29,18 +30,16 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-left: 1025px;
-
 }
 
 ul li {
   float: left;
   padding-top: 25px;
-  
 }
 
 ul li:not(:last-child):after {
   content: "|";
-  }
+}
 
 li a {
   display: inline-block;
@@ -55,6 +54,12 @@ a:link {
     text-decoration: none;
 }
 
+a:hover {
+  border-top: 4px solid #4aaaa5;
+  border-bottom: 4px solid #4aaaa5; 
+  color: #4aaaa5;
+}
+
 .name-logo {
     color: #ffffff;
     font-size: 30px;
@@ -67,12 +72,10 @@ a:link {
     margin-left: 280px;
     padding-top: 30px;
     text-align: center;
-
 }
 
 .center {
     text-align: center;
-
 }
 
 .main {
@@ -83,7 +86,7 @@ a:link {
     border: 1px solid #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
-    height: 520px;
+    height: 540px;
     margin-left: auto;
     margin-top: 20px;
     margin-bottom: 200px;
@@ -93,10 +96,12 @@ a:link {
     float: left;
     width: 120px;
     height: 157px;
-    padding: 15px 20px 10px 20px;
+    padding: 15px 20px 10px 25px;
 }
 
 hr {
+    margin-left: 25px;
+    margin-right: 25px;
     height: 3px;
     color: #dddddd;
     background-color: #dddddd;
@@ -132,19 +137,23 @@ p {
 .form-input {
     text-align: left;
     margin: 25px;
-    line-height: 2.0;  
+    line-height: 2.0; 
 }
 
 input[type=text] {
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+  color: #777777;
 }
 
 input[type=email] {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
 }
 
 textarea[name=Message] {
@@ -159,6 +168,10 @@ input[type=submit] {
     width: 90px;
     height: 30px;
     color: #ffffff;
+}
+
+#submit-it:hover {
+    background-color: #FF0004;
 }
 
 label {
@@ -186,6 +199,11 @@ label {
 .image {
     width: 250px;
     height: 170px;
+}
+
+.image:hover {
+  outline: 5px solid #4aaaa5;
+  outline-offset: 10px;
 }
 
 .portfolio-p {
@@ -256,22 +274,3 @@ label {
     padding: 0;
 }
 
-/*.image-3::after {
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;*/
-}
-
-/*.clearfix:after { 
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
-}*/
-
-/*.clearfix {
-    overflow: auto;
-}*/
