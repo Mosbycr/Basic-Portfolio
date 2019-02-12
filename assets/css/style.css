@@ -215,13 +215,14 @@ label {
 }
 
 .portfolio-row-1 {
-    display: inline-block;
+    display: inline;
     margin: 0;
     padding: 0;
 }
 
 .image-3 {
     position: relative;
+    clear: both;
     float:left;
     padding-left: 25px;
     padding-top: 20px;
@@ -230,32 +231,45 @@ label {
 .image-4 {
     position: relative;
     float:left;
-    padding-left: 25px;
+    padding-left: 40px;
     padding-top: 20px;
 }
 
 .portfolio-row-2 {
-    display: inline-block;
+    display: inline;
     margin: 0;
     padding: 0;
 }
 
 .image-5 {
     position: relative;
+    clear:both;
     float:left;
     padding-left: 25px;
     padding-top: 20px;
 }
 .portfolio-row-3 {
-    display: inline-block;
+    display: block;
     margin: 0;
     padding: 0;
 }
 
-.clearfix:after { 
+/*.image-3::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;*/
+}
+
+/*.clearfix:after { 
   content: "";
   visibility: hidden;
   display: block;
   height: 0;
   clear: both;
-}
+}*/
+
+/*.clearfix {
+    overflow: auto;
+}*/
